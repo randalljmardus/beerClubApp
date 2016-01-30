@@ -13,6 +13,22 @@
 		15466C6D1C47294700CDABA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15466C6C1C47294700CDABA2 /* Assets.xcassets */; };
 		15466C701C47294700CDABA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15466C6E1C47294700CDABA2 /* LaunchScreen.storyboard */; };
 		15466C781C4732CA00CDABA2 /* DetailedBreweryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15466C771C4732CA00CDABA2 /* DetailedBreweryViewController.swift */; };
+		1567AE091C5D1F3500F27297 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1567AE061C5D1F3400F27297 /* Bolts.framework */; };
+		1567AE0A1C5D1F3500F27297 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1567AE071C5D1F3500F27297 /* Parse.framework */; };
+		1567AE0B1C5D1F3500F27297 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1567AE081C5D1F3500F27297 /* ParseUI.framework */; };
+		1567AE0D1C5D1FB400F27297 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1567AE0C1C5D1FB400F27297 /* AudioToolbox.framework */; };
+		1567AE0F1C5D1FC200F27297 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1567AE0E1C5D1FC200F27297 /* CFNetwork.framework */; };
+		1567AE111C5D1FE000F27297 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1567AE101C5D1FE000F27297 /* CoreGraphics.framework */; };
+		1567AE131C5D1FE800F27297 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1567AE121C5D1FE800F27297 /* CoreLocation.framework */; };
+		1567AE151C5D1FF300F27297 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1567AE141C5D1FF300F27297 /* QuartzCore.framework */; };
+		1567AE171C5D201200F27297 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1567AE161C5D201200F27297 /* Security.framework */; };
+		1567AE191C5D201B00F27297 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1567AE181C5D201B00F27297 /* StoreKit.framework */; };
+		1567AE1B1C5D202A00F27297 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1567AE1A1C5D202A00F27297 /* SystemConfiguration.framework */; };
+		1567AE1D1C5D203A00F27297 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1567AE1C1C5D203A00F27297 /* libz.tbd */; };
+		1567AE1F1C5D204D00F27297 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1567AE1E1C5D204D00F27297 /* libsqlite3.tbd */; };
+		1567AE211C5D2BD600F27297 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1567AE201C5D2BD600F27297 /* TableViewController.swift */; };
+		1567AE231C5D2C2B00F27297 /* AddBeerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1567AE221C5D2C2B00F27297 /* AddBeerViewController.swift */; };
+		1567AE251C5D2C4900F27297 /* BeerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1567AE241C5D2C4900F27297 /* BeerDetailViewController.swift */; };
 		1596A2421C505A800028DBA4 /* brewery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1596A2411C505A800028DBA4 /* brewery.swift */; };
 		1596A2441C505B130028DBA4 /* breweryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1596A2431C505B130028DBA4 /* breweryList.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +42,22 @@
 		15466C6F1C47294700CDABA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15466C711C47294700CDABA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15466C771C4732CA00CDABA2 /* DetailedBreweryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedBreweryViewController.swift; sourceTree = "<group>"; };
+		1567AE061C5D1F3400F27297 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "parse-library-1.12.0/Bolts.framework"; sourceTree = "<group>"; };
+		1567AE071C5D1F3500F27297 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "parse-library-1.12.0/Parse.framework"; sourceTree = "<group>"; };
+		1567AE081C5D1F3500F27297 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = "parse-library-1.12.0/ParseUI.framework"; sourceTree = "<group>"; };
+		1567AE0C1C5D1FB400F27297 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1567AE0E1C5D1FC200F27297 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1567AE101C5D1FE000F27297 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1567AE121C5D1FE800F27297 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1567AE141C5D1FF300F27297 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1567AE161C5D201200F27297 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1567AE181C5D201B00F27297 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		1567AE1A1C5D202A00F27297 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1567AE1C1C5D203A00F27297 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		1567AE1E1C5D204D00F27297 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		1567AE201C5D2BD600F27297 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		1567AE221C5D2C2B00F27297 /* AddBeerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBeerViewController.swift; sourceTree = "<group>"; };
+		1567AE241C5D2C4900F27297 /* BeerDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerDetailViewController.swift; sourceTree = "<group>"; };
 		1596A2411C505A800028DBA4 /* brewery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = brewery.swift; sourceTree = "<group>"; };
 		1596A2431C505B130028DBA4 /* breweryList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = breweryList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -35,6 +67,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1567AE1F1C5D204D00F27297 /* libsqlite3.tbd in Frameworks */,
+				1567AE1D1C5D203A00F27297 /* libz.tbd in Frameworks */,
+				1567AE1B1C5D202A00F27297 /* SystemConfiguration.framework in Frameworks */,
+				1567AE191C5D201B00F27297 /* StoreKit.framework in Frameworks */,
+				1567AE171C5D201200F27297 /* Security.framework in Frameworks */,
+				1567AE151C5D1FF300F27297 /* QuartzCore.framework in Frameworks */,
+				1567AE131C5D1FE800F27297 /* CoreLocation.framework in Frameworks */,
+				1567AE111C5D1FE000F27297 /* CoreGraphics.framework in Frameworks */,
+				1567AE0F1C5D1FC200F27297 /* CFNetwork.framework in Frameworks */,
+				1567AE0D1C5D1FB400F27297 /* AudioToolbox.framework in Frameworks */,
+				1567AE0B1C5D1F3500F27297 /* ParseUI.framework in Frameworks */,
+				1567AE0A1C5D1F3500F27297 /* Parse.framework in Frameworks */,
+				1567AE091C5D1F3500F27297 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +89,7 @@
 		15466C591C47294700CDABA2 = {
 			isa = PBXGroup;
 			children = (
+				1567AE051C5D1F0A00F27297 /* Frameworks */,
 				15466C641C47294700CDABA2 /* Beer Club */,
 				15466C631C47294700CDABA2 /* Products */,
 			);
@@ -65,12 +111,35 @@
 				1596A2411C505A800028DBA4 /* brewery.swift */,
 				1596A2431C505B130028DBA4 /* breweryList.swift */,
 				15466C771C4732CA00CDABA2 /* DetailedBreweryViewController.swift */,
+				1567AE201C5D2BD600F27297 /* TableViewController.swift */,
+				1567AE221C5D2C2B00F27297 /* AddBeerViewController.swift */,
+				1567AE241C5D2C4900F27297 /* BeerDetailViewController.swift */,
 				15466C691C47294700CDABA2 /* Main.storyboard */,
 				15466C6C1C47294700CDABA2 /* Assets.xcassets */,
 				15466C6E1C47294700CDABA2 /* LaunchScreen.storyboard */,
 				15466C711C47294700CDABA2 /* Info.plist */,
 			);
 			path = "Beer Club";
+			sourceTree = "<group>";
+		};
+		1567AE051C5D1F0A00F27297 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1567AE1E1C5D204D00F27297 /* libsqlite3.tbd */,
+				1567AE1C1C5D203A00F27297 /* libz.tbd */,
+				1567AE1A1C5D202A00F27297 /* SystemConfiguration.framework */,
+				1567AE181C5D201B00F27297 /* StoreKit.framework */,
+				1567AE161C5D201200F27297 /* Security.framework */,
+				1567AE141C5D1FF300F27297 /* QuartzCore.framework */,
+				1567AE121C5D1FE800F27297 /* CoreLocation.framework */,
+				1567AE101C5D1FE000F27297 /* CoreGraphics.framework */,
+				1567AE0E1C5D1FC200F27297 /* CFNetwork.framework */,
+				1567AE0C1C5D1FB400F27297 /* AudioToolbox.framework */,
+				1567AE061C5D1F3400F27297 /* Bolts.framework */,
+				1567AE071C5D1F3500F27297 /* Parse.framework */,
+				1567AE081C5D1F3500F27297 /* ParseUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,10 +174,11 @@
 				TargetAttributes = {
 					15466C611C47294700CDABA2 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = RM6ZR7R645;
 					};
 				};
 			};
-			buildConfigurationList = 15466C5D1C47294700CDABA2 /* Build configuration list for PBXProject "Beer Club" */;
+			buildConfigurationList = 15466C5D1C47294700CDABA2 /* Build configuration list for PBXProject "beerClub" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -145,10 +215,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1596A2441C505B130028DBA4 /* breweryList.swift in Sources */,
+				1567AE251C5D2C4900F27297 /* BeerDetailViewController.swift in Sources */,
+				1567AE211C5D2BD600F27297 /* TableViewController.swift in Sources */,
 				1596A2421C505A800028DBA4 /* brewery.swift in Sources */,
 				15466C781C4732CA00CDABA2 /* DetailedBreweryViewController.swift in Sources */,
 				15466C681C47294700CDABA2 /* MasterBreweryViewController.swift in Sources */,
 				15466C661C47294700CDABA2 /* AppDelegate.swift in Sources */,
+				1567AE231C5D2C2B00F27297 /* AddBeerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +334,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/parse-library-1.12.0",
+				);
 				INFOPLIST_FILE = "Beer Club/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.Beer-Club";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -272,17 +352,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/parse-library-1.12.0",
+				);
 				INFOPLIST_FILE = "Beer Club/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.Beer-Club";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		15466C5D1C47294700CDABA2 /* Build configuration list for PBXProject "Beer Club" */ = {
+		15466C5D1C47294700CDABA2 /* Build configuration list for PBXProject "beerClub" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				15466C721C47294700CDABA2 /* Debug */,
